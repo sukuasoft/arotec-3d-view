@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+}
+
+.explorer-menu{
+
+    width: 180px;
+    padding: 35px 30px 25px 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.explorer-menu-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+.ex-models-container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex:1;
+  gap: 20px;
+}
+
+.ex-model{
+    background: #eee;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.ex-model-active{
+ background-color: #303030;
+ color: #eee;   
+}
+
+.ex-model:hover{
+    background: #ddd;
+}
+.ex-model-active:hover{
+    background: #505050;
+}
+
+
+.ex-model-image{
+    border-radius: 100px;
+    overflow: hidden;
+}
+.ex-model-title{
+    text-align: center;
+}
+
+.area{
+    padding: 40px;
+    flex:1;
+    display: flex;
+    gap: 20px;
+
+}
+
+.area-3d{
+    flex: 1;
+    background: #eee;
+}
+
+.explain{
+
+    width: 250px;
+    padding: 20px 25px;
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.explain-image{
+margin: 0px auto;
+display: block;
+user-select: none;
+margin-bottom: 30px;
+}
+
+.explain-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.explain-content{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.explain-next{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+ margin-top: auto;
+    background-color: #101010;
+    color:white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.explain-next:hover{
+    background-color: #303030;
+}
